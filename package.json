@@ -1,0 +1,41 @@
+{
+  "name": "baton",
+  "version": "0.0.0",
+  "description": "Effortless systems orchestration using Node.js.",
+  "keywords": ["devops", "automation", "orchestration", "deploy", "deployment", "puppet", "chef"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/baton.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/baton/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib",
+  "bin" : {
+    "baton" : "./bin/baton.js"
+  },
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "commander": "1.x.x",
+    "ssh2": "0.1.x",
+    "async": "0.1.x",
+    "debug": "0.7.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "should": "1.x.x"
+  },
+  "engines": { "node": ">= 0.6.0" },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require should"
+  }
+}
