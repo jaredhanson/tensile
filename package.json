@@ -1,6 +1,6 @@
 {
   "name": "baton",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Effortless systems orchestration using Node.js.",
   "keywords": ["devops", "automation", "orchestration", "deploy", "deployment", "puppet", "chef"],
   "repository": {
