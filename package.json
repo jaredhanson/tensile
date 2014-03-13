@@ -5,10 +5,10 @@
   "keywords": ["devops", "automation", "orchestration", "deploy", "deployment", "puppet", "chef"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/baton.git"
+    "url": "git://github.com/jaredhanson/tensile.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/baton/issues"
+    "url": "http://github.com/jaredhanson/tensile/issues"
   },
   "author": {
     "name": "Jared Hanson",
