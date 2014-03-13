@@ -2,7 +2,20 @@
   "name": "tensile",
   "version": "0.0.2",
   "description": "Effortless systems orchestration using Node.js.",
-  "keywords": ["devops", "automation", "orchestration", "deploy", "deployment", "puppet", "chef"],
+  "keywords": [
+    "devops",
+    "automation",
+    "orchestration",
+    "deploy",
+    "deployment",
+    "puppet",
+    "chef"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/jaredhanson/tensile.git"
@@ -10,19 +23,13 @@
   "bugs": {
     "url": "http://github.com/jaredhanson/tensile/issues"
   },
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib",
-  "bin" : {
-    "tensile" : "./bin/tensile.js"
-  },
   "dependencies": {
     "pkginfo": "0.2.x",
     "commander": "1.x.x",
@@ -35,7 +42,9 @@
     "mocha": "1.x.x",
     "should": "1.x.x"
   },
-  "engines": { "node": ">= 0.6.0" },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require should"
   }
