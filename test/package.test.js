@@ -1,11 +1,11 @@
 /* global describe, it, expect */
 
-var pkg = require('..');
+var tensile = require('..');
 
 describe('tensile', function() {
   
-  it('should export object', function() {
-    expect(pkg).to.be.an('object');
+  it('should export version', function() {
+    expect(tensile.version).to.be.a('string');
   });
   
 });
