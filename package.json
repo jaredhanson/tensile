@@ -1,6 +1,6 @@
 {
-  "name": "baton",
-  "version": "0.0.1",
+  "name": "tensile",
+  "version": "0.0.2",
   "description": "Effortless systems orchestration using Node.js.",
   "keywords": ["devops", "automation", "orchestration", "deploy", "deployment", "puppet", "chef"],
   "repository": {
@@ -21,7 +21,7 @@
   } ],
   "main": "./lib",
   "bin" : {
-    "baton" : "./bin/baton.js"
+    "tensile" : "./bin/tensile.js"
   },
   "dependencies": {
     "pkginfo": "0.2.x",
