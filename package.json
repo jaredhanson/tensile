@@ -36,6 +36,7 @@
   "dependencies": {
     "pkginfo": "0.2.x",
     "commander": "1.x.x",
+    "bootable": "0.2.x",
     "async": "0.1.x",
     "ssh2": "0.1.x",
     "ejs": "0.8.x",
