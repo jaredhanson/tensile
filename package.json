@@ -38,6 +38,7 @@
     "commander": "1.x.x",
     "bootable": "0.2.x",
     "ini": "1.x.x",
+    "toml": "2.x.x",
     "async": "0.1.x",
     "ssh2": "0.1.x",
     "ejs": "0.8.x",
