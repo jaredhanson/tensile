@@ -42,6 +42,7 @@
     "async": "0.1.x",
     "ssh2": "0.1.x",
     "ejs": "0.8.x",
+    "utils-merge": "1.x.x",
     "debug": "0.7.x"
   },
   "devDependencies": {
